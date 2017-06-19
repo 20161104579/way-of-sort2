@@ -46,5 +46,7 @@ int main()
     {
         fprintf(fo,"%d ",n[i]);
     }
+    fclose(fi);
+    fclose(fo);
     return 0;
 }
